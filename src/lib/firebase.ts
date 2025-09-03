@@ -13,12 +13,13 @@ import {
 import { getAuth, signInAnonymously, updateProfile, onAuthStateChanged } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  apiKey: "AIzaSyBxIUX6Qr4Z1cKlUsXF-sf6dvAk47V2d2Q",
+  authDomain: "card-5e01d.firebaseapp.com",
+  projectId: "card-5e01d",
+  storageBucket: "card-5e01d.firebasestorage.app",
+  messagingSenderId: "83990315582",
+  appId: "1:83990315582:web:f081a9df6657770ba1876f",
+  measurementId: "G-32LQN9XJZQ"
 };
 
 const app = initializeApp(firebaseConfig);
